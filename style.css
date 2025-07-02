@@ -1,0 +1,51 @@
+.container{
+    max-width: 300px;
+    width: 90%;
+    margin: 2.5rem auto;
+    padding: 30px;
+    border: 2px solid;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#btn{
+    width: 100%;
+    height: 50px;
+    margin: 3px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#equal{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 15px;
+    grid-column: span 4;
+}
+
+#resultbox{
+    display: flex;
+    border: 1px solid;
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    text-align: right;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #a5d6e4, #4391f0);
+}
+
+*{
+    box-sizing: border-box;
+}
